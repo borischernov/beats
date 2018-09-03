@@ -20,6 +20,7 @@ package memory
 import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/metricbeat/module/docker"
+	"math"
 )
 
 type MemoryData struct {
@@ -47,6 +48,15 @@ func (s *MemoryService) getMemoryStatsList(rawStats []docker.Stat, dedot bool) [
 
 func (s *MemoryService) getMemoryStats(myRawStat docker.Stat, dedot bool) MemoryData {
 	totalRSS := myRawStat.Stats.MemoryStats.Stats["total_rss"]
+	totalRSSP := float64(totalRSS) / float64(myRawStat.Stats.MemoryStats.Limit)
+	if math.IsNaN(totalRSSP) {
+		totalRSSP = 0
+	}
+	Usage := myRawStat.Stats.MemoryStats.Usage
+	UsageP := float64(myRawStat.Stats.MemoryStats.Usage) / float64(myRawStat.Stats.MemoryStats.Limit)
+	if math.IsNaN(UsageP) {
+		UsageP = 0
+	}
 	return MemoryData{
 		Time:      common.Time(myRawStat.Stats.Read),
 		Container: docker.NewContainer(myRawStat.Container, dedot),
@@ -54,8 +64,8 @@ func (s *MemoryService) getMemoryStats(myRawStat docker.Stat, dedot bool) Memory
 		Limit:     myRawStat.Stats.MemoryStats.Limit,
 		MaxUsage:  myRawStat.Stats.MemoryStats.MaxUsage,
 		TotalRss:  totalRSS,
-		TotalRssP: float64(totalRSS) / float64(myRawStat.Stats.MemoryStats.Limit),
-		Usage:     myRawStat.Stats.MemoryStats.Usage,
-		UsageP:    float64(myRawStat.Stats.MemoryStats.Usage) / float64(myRawStat.Stats.MemoryStats.Limit),
+		TotalRssP: totalRSSP,
+		Usage:     Usage,
+		UsageP:    UsageP,
 	}
 }
