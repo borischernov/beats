@@ -27,7 +27,7 @@ import (
 	"net/http"
 	"net/url"
 	"time"
-	"runtime/debug"
+	"runtime"
 
 	"github.com/elastic/beats/libbeat/beat"
 	"github.com/elastic/beats/libbeat/logp"
@@ -374,8 +374,10 @@ func bulkEncodePublishRequest(
 			continue
 		}
 		if err := body.Add(meta, event); err != nil {
-			logp.Err("Failed to encode event: %s", err)
-			debug.PrintStack()
+			logp.Err("Failed to encode event:: %s", err)
+			buffer := make([]byte, 4096)
+ 			buffer = buffer[:runtime.Stack(buffer, true)]
+			logp.Err("Stack trace %s", buffer)
 			continue
 		}
 		okEvents = append(okEvents, data[i])
