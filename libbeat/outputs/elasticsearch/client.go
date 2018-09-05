@@ -27,6 +27,7 @@ import (
 	"net/http"
 	"net/url"
 	"time"
+	"runtime/debug"
 
 	"github.com/elastic/beats/libbeat/beat"
 	"github.com/elastic/beats/libbeat/logp"
@@ -374,6 +375,7 @@ func bulkEncodePublishRequest(
 		}
 		if err := body.Add(meta, event); err != nil {
 			logp.Err("Failed to encode event: %s", err)
+			debug.PrintStack()
 			continue
 		}
 		okEvents = append(okEvents, data[i])
