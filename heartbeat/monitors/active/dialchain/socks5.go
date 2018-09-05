@@ -20,9 +20,9 @@ package dialchain
 import (
 	"net"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/heartbeat/look"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 // SOCKS5Layer configures a SOCKS5 proxy layer in a DialerChain.

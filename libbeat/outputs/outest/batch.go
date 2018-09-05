@@ -18,8 +18,8 @@
 package outest
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/publisher"
 )
 
 type Batch struct {

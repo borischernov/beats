@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/procs"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/packetbeat/procs"
 )
 
 func (amqp *amqpPlugin) amqpMessageParser(s *amqpStream) (ok bool, complete bool) {

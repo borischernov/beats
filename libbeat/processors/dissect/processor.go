@@ -22,9 +22,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/processors"
 )
 
 type processor struct {

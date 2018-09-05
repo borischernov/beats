@@ -22,8 +22,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 type Factory func(*common.Config) ([]Job, error)

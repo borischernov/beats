@@ -22,9 +22,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/testing"
 )
 
 // receiveOneEvent receives one event from the events channel then closes the

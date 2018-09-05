@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 func TestMakeXPackMonitoringIndexName(t *testing.T) {

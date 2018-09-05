@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 
 	"github.com/pkg/errors"
 )

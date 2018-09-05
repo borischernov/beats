@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/metricbeat/helper/elastic"
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/borischernov/beats/metricbeat/helper/elastic"
+	"github.com/borischernov/beats/metricbeat/module/elasticsearch"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 func passthruField(fieldPath string, sourceData, targetData common.MapStr) error {

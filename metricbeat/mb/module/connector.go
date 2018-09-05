@@ -18,9 +18,9 @@
 package module
 
 import (
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/processors"
 )
 
 // Connector configures and establishes a beat.Client for publishing events

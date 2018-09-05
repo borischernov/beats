@@ -30,9 +30,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/reader"
-	"github.com/elastic/beats/filebeat/reader/readfile/encoding"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/filebeat/reader"
+	"github.com/borischernov/beats/filebeat/reader/readfile/encoding"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 func TestReadLine(t *testing.T) {
@@ -122,7 +122,7 @@ func TestReadLine(t *testing.T) {
 
 // readLine reads a full line into buffer and returns it.
 // In case of partial lines, readLine does return an error and an empty string
-// This could potentially be improved / replaced by https://github.com/elastic/beats/libbeat/tree/master/common/streambuf
+// This could potentially be improved / replaced by https://github.com/borischernov/beats/libbeat/tree/master/common/streambuf
 func readLine(reader reader.Reader) (time.Time, string, int, common.MapStr, error) {
 	message, err := reader.Next()
 

@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 const selector = "cfgwarn"

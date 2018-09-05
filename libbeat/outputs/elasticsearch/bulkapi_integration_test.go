@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 func TestBulk(t *testing.T) {

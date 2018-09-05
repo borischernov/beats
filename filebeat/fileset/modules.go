@@ -27,11 +27,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/kibana"
-	"github.com/elastic/beats/libbeat/logp"
-	mlimporter "github.com/elastic/beats/libbeat/ml-importer"
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/kibana"
+	"github.com/borischernov/beats/libbeat/logp"
+	mlimporter "github.com/borischernov/beats/libbeat/ml-importer"
+	"github.com/borischernov/beats/libbeat/paths"
 )
 
 var availableMLModules = map[string]string{

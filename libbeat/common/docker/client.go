@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 
 	"github.com/docker/docker/api"
 	"github.com/docker/docker/api/types/versions"

@@ -24,7 +24,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/borischernov/beats/libbeat/common/match"
 )
 
 func TestCheckBody(t *testing.T) {

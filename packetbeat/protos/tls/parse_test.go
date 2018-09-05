@@ -30,9 +30,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/streambuf"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/streambuf"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 const (

@@ -31,11 +31,11 @@ import (
 	mkdns "github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/borischernov/beats/packetbeat/protos"
 )
 
 // Test Constants

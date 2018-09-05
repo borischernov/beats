@@ -18,11 +18,11 @@
 package state_container
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	p "github.com/elastic/beats/metricbeat/helper/prometheus"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/kubernetes/util"
+	"github.com/borischernov/beats/libbeat/common"
+	p "github.com/borischernov/beats/metricbeat/helper/prometheus"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb/parse"
+	"github.com/borischernov/beats/metricbeat/module/kubernetes/util"
 )
 
 const (

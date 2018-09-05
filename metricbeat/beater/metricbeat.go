@@ -23,18 +23,18 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	mbautodiscover "github.com/elastic/beats/metricbeat/autodiscover"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/module"
+	"github.com/borischernov/beats/libbeat/autodiscover"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/cfgfile"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/logp"
+	mbautodiscover "github.com/borischernov/beats/metricbeat/autodiscover"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb/module"
 
 	// Add metricbeat default processors
-	_ "github.com/elastic/beats/metricbeat/processor/add_kubernetes_metadata"
+	_ "github.com/borischernov/beats/metricbeat/processor/add_kubernetes_metadata"
 )
 
 // Metricbeat implements the Beater interface for metricbeat.

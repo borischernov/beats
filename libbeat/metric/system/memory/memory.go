@@ -20,7 +20,7 @@
 package memory
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 	sigar "github.com/elastic/gosigar"
 )
 

@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/system"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/metricbeat/module/system"
 )
 
 func Test_Get_CLK_TCK(t *testing.T) {

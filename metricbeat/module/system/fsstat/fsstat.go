@@ -22,11 +22,11 @@ package fsstat
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/system/filesystem"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb/parse"
+	"github.com/borischernov/beats/metricbeat/module/system/filesystem"
 
 	"github.com/pkg/errors"
 )

@@ -26,10 +26,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/borischernov/beats/packetbeat/protos/applayer"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 type testingImpl struct {

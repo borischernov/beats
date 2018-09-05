@@ -20,11 +20,11 @@ package tcp
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/heartbeat/reason"
+	"github.com/borischernov/beats/heartbeat/look"
+	"github.com/borischernov/beats/heartbeat/reason"
 )
 
 func pingHost(

@@ -23,7 +23,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 var (

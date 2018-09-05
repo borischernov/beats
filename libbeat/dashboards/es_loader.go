@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs/elasticsearch"
 )
 
 type ElasticsearchLoader struct {
@@ -63,7 +63,7 @@ func NewElasticsearchLoader(cfg *common.Config, dashboardsConfig *Config, msgOut
 
 // CreateKibanaIndex creates the kibana index if it doesn't exists and sets
 // some index properties which are needed as a workaround for:
-// https://github.com/elastic/beats-dashboards/issues/94
+// https://github.com/borischernov/beats-dashboards/issues/94
 func (loader ElasticsearchLoader) CreateKibanaIndex() error {
 	status, err := loader.client.IndexExists(loader.config.KibanaIndex)
 

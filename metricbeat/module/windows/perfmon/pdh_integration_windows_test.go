@@ -27,8 +27,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/metricbeat/mb"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 )
 
 const processorTimeCounter = `\Processor Information(_Total)\% Processor Time`

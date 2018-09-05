@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // pathComponentType indicates the type of pathComponent.

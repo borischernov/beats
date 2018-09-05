@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 func TestApplyOptions(t *testing.T) {

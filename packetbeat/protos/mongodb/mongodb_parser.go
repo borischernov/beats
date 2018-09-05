@@ -22,8 +22,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
 	"gopkg.in/mgo.v2/bson"
 )

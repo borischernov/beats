@@ -22,7 +22,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/publisher"
 )
 
 type message struct {

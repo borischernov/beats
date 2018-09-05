@@ -39,9 +39,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/borischernov/beats/packetbeat/protos"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 
 	mkdns "github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"

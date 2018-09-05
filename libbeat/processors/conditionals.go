@@ -20,10 +20,10 @@ package processors
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/conditions"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/conditions"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // WhenProcessor is a tuple of condition plus a Processor.

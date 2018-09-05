@@ -23,10 +23,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/instance"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/template"
+	"github.com/borischernov/beats/libbeat/cmd/instance"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/paths"
+	"github.com/borischernov/beats/libbeat/template"
 )
 
 func GenTemplateConfigCmd(name, idxPrefix, beatVersion string) *cobra.Command {

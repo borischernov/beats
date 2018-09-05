@@ -22,9 +22,9 @@ package namespace
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/aerospike"
+	"github.com/borischernov/beats/libbeat/tests/compose"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/metricbeat/module/aerospike"
 )
 
 func TestData(t *testing.T) {

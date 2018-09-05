@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/helper/server"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/metricbeat/helper/server"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 type metricProcessor struct {

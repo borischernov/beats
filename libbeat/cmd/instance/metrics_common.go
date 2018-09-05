@@ -22,8 +22,8 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/monitoring/report/log"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/monitoring/report/log"
 )
 
 var (

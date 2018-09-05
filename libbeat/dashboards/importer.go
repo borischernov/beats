@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // MessageOutputter is a function type for injecting status logging

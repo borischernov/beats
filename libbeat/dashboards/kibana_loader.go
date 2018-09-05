@@ -25,9 +25,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/kibana"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/kibana"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 var importAPI = "/api/kibana/dashboards/import"

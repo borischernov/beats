@@ -22,7 +22,7 @@ package cluster_stats
 import (
 	"testing"
 
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/borischernov/beats/metricbeat/module/elasticsearch"
 )
 
 func TestMapper(t *testing.T) {

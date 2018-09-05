@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	dk "github.com/elastic/beats/libbeat/tests/docker"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/bus"
+	dk "github.com/borischernov/beats/libbeat/tests/docker"
 
 	"github.com/stretchr/testify/assert"
 )

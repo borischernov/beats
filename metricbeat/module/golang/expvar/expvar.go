@@ -18,12 +18,12 @@
 package expvar
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
-	"github.com/elastic/beats/metricbeat/module/golang"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/metricbeat/helper"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb/parse"
+	"github.com/borischernov/beats/metricbeat/module/golang"
 )
 
 const (

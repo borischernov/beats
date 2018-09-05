@@ -24,12 +24,12 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/transport/tlscommon"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs"
+	"github.com/borischernov/beats/libbeat/outputs/outil"
 )
 
 func init() {

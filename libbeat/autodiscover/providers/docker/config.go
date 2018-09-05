@@ -18,9 +18,9 @@
 package docker
 
 import (
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/docker"
+	"github.com/borischernov/beats/libbeat/autodiscover/template"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/docker"
 )
 
 // Config for docker autodiscover provider

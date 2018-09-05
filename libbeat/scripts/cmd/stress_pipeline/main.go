@@ -25,22 +25,22 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	logpcfg "github.com/elastic/beats/libbeat/logp/configure"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/publisher/pipeline/stress"
-	"github.com/elastic/beats/libbeat/service"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	logpcfg "github.com/borischernov/beats/libbeat/logp/configure"
+	"github.com/borischernov/beats/libbeat/paths"
+	"github.com/borischernov/beats/libbeat/publisher/pipeline/stress"
+	"github.com/borischernov/beats/libbeat/service"
 
 	// import queue types
-	_ "github.com/elastic/beats/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/spool"
+	_ "github.com/borischernov/beats/libbeat/publisher/queue/memqueue"
+	_ "github.com/borischernov/beats/libbeat/publisher/queue/spool"
 
 	// import outputs
-	_ "github.com/elastic/beats/libbeat/outputs/console"
-	_ "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/libbeat/outputs/logstash"
+	_ "github.com/borischernov/beats/libbeat/outputs/console"
+	_ "github.com/borischernov/beats/libbeat/outputs/elasticsearch"
+	_ "github.com/borischernov/beats/libbeat/outputs/fileout"
+	_ "github.com/borischernov/beats/libbeat/outputs/logstash"
 )
 
 var (

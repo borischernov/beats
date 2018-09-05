@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/helper"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/metricbeat/helper"
 )
 
 // Global clusterIdCache. Assumption is that the same node id never can belong to a different cluster id

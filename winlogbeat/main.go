@@ -27,8 +27,8 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/winlogbeat/cmd"
-	_ "github.com/elastic/beats/winlogbeat/include"
+	"github.com/borischernov/beats/winlogbeat/cmd"
+	_ "github.com/borischernov/beats/winlogbeat/include"
 )
 
 func main() {

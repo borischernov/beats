@@ -18,7 +18,7 @@
 package beat
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // Creator initializes and configures a new Beater instance used to execute

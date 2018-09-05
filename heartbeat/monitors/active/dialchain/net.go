@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/heartbeat/look"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 // TCPDialer creates a new NetDialer with constant event fields and default

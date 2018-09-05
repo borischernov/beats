@@ -22,7 +22,7 @@ package main
 import (
 	"context"
 
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/borischernov/beats/dev-tools/mage"
 )
 
 // Build builds the Beat binary.

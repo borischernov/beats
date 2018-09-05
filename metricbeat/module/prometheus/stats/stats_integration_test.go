@@ -23,9 +23,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/tests/compose"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

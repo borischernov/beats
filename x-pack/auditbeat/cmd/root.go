@@ -4,7 +4,7 @@
 
 package cmd
 
-import "github.com/elastic/beats/auditbeat/cmd"
+import "github.com/borischernov/beats/auditbeat/cmd"
 
 // RootCmd to handle beats cli
 var RootCmd = cmd.RootCmd

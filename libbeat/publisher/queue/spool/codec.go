@@ -28,9 +28,9 @@ import (
 	"github.com/elastic/go-structform/json"
 	"github.com/elastic/go-structform/ubjson"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/publisher"
 )
 
 type encoder struct {

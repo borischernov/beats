@@ -14,9 +14,9 @@ package main
 import (
 	"os"
 
-	_ "github.com/elastic/beats/winlogbeat/include"
+	_ "github.com/borischernov/beats/winlogbeat/include"
 
-	"github.com/elastic/beats/x-pack/winlogbeat/cmd"
+	"github.com/borischernov/beats/x-pack/winlogbeat/cmd"
 )
 
 func main() {

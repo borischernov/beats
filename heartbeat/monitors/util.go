@@ -23,10 +23,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
 
-	"github.com/elastic/beats/heartbeat/look"
+	"github.com/borischernov/beats/heartbeat/look"
 )
 
 type funcJob struct {

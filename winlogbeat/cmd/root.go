@@ -17,8 +17,8 @@
 
 package cmd
 
-import cmd "github.com/elastic/beats/libbeat/cmd"
-import "github.com/elastic/beats/winlogbeat/beater"
+import cmd "github.com/borischernov/beats/libbeat/cmd"
+import "github.com/borischernov/beats/winlogbeat/beater"
 
 // Name of this beat
 var Name = "winlogbeat"

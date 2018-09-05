@@ -23,7 +23,7 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // Registry struct manages (start / stop) a list of harvesters

@@ -27,11 +27,11 @@ package galera_status
 import (
 	"database/sql"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/mysql"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/module/mysql"
 
 	"github.com/pkg/errors"
 )

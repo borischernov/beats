@@ -29,19 +29,19 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/libbeat/tests/compose"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 
 	"bytes"
 
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/cluster_stats"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/index"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/index_recovery"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/index_summary"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/ml_job"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/node"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/node_stats"
-	_ "github.com/elastic/beats/metricbeat/module/elasticsearch/shard"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/cluster_stats"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/index"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/index_recovery"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/index_summary"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/ml_job"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/node"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/node_stats"
+	_ "github.com/borischernov/beats/metricbeat/module/elasticsearch/shard"
 )
 
 var metricSets = []string{

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // Processor struct to process fields to template

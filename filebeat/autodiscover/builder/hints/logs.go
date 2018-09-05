@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/elastic/beats/filebeat/fileset"
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/autodiscover/builder"
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/filebeat/fileset"
+	"github.com/borischernov/beats/libbeat/autodiscover"
+	"github.com/borischernov/beats/libbeat/autodiscover/builder"
+	"github.com/borischernov/beats/libbeat/autodiscover/template"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/bus"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 func init() {

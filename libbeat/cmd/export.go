@@ -20,7 +20,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/beats/libbeat/cmd/export"
+	"github.com/borischernov/beats/libbeat/cmd/export"
 )
 
 func genExportCmd(name, idxPrefix, beatVersion string) *cobra.Command {

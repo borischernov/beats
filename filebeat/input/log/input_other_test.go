@@ -22,9 +22,9 @@ package log
 import (
 	"testing"
 
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/filebeat/util"
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/borischernov/beats/filebeat/input/file"
+	"github.com/borischernov/beats/filebeat/util"
+	"github.com/borischernov/beats/libbeat/common/match"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/kubernetes"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 const (

@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/fileset"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/filebeat/channel"
+	"github.com/borischernov/beats/filebeat/fileset"
+	"github.com/borischernov/beats/filebeat/input"
+	"github.com/borischernov/beats/filebeat/input/file"
+	"github.com/borischernov/beats/filebeat/registrar"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/cfgfile"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
-	_ "github.com/elastic/beats/filebeat/include"
+	_ "github.com/borischernov/beats/filebeat/include"
 )
 
 type Crawler struct {

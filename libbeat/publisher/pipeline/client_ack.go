@@ -20,8 +20,8 @@ package pipeline
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common/atomic"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common/atomic"
 )
 
 type clientACKer struct {

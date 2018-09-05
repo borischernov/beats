@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/heartbeat/monitors"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 // Builder maintains a DialerChain for building dialers and dialer based

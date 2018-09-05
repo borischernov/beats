@@ -29,8 +29,8 @@ import (
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/winlogbeat/sys"
 )
 
 // The value of EventID element contains the low-order 16 bits of the event

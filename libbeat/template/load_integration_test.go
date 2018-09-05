@@ -24,10 +24,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch/estest"
-	"github.com/elastic/beats/libbeat/version"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/outputs/elasticsearch/estest"
+	"github.com/borischernov/beats/libbeat/version"
 
 	"github.com/stretchr/testify/assert"
 )

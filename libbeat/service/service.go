@@ -30,8 +30,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
 
 	"net/http"
 	_ "net/http/pprof"

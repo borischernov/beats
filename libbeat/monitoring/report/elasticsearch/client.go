@@ -21,12 +21,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring/report"
-	esout "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring/report"
+	esout "github.com/borischernov/beats/libbeat/outputs/elasticsearch"
+	"github.com/borischernov/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/testing"
 )
 
 type publishClient struct {

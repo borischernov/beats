@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/filebeat/input/file"
-	helper "github.com/elastic/beats/libbeat/common/file"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/paths"
+	"github.com/borischernov/beats/filebeat/input/file"
+	helper "github.com/borischernov/beats/libbeat/common/file"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/paths"
 )
 
 type Registrar struct {

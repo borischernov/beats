@@ -23,7 +23,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/borischernov/beats/libbeat/common/match"
 )
 
 type RespCheck func(*http.Response) error

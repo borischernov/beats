@@ -22,9 +22,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester"
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/filebeat/harvester"
+	"github.com/borischernov/beats/filebeat/input/file"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // Log contains all log related data

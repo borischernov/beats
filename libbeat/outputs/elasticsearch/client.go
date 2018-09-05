@@ -29,13 +29,13 @@ import (
 	"time"
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/publisher"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs"
+	"github.com/borischernov/beats/libbeat/outputs/outil"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/testing"
 )
 
 // Client is an elasticsearch client.

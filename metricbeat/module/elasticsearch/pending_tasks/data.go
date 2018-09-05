@@ -22,9 +22,9 @@ import (
 
 	"github.com/joeshaw/multierror"
 
-	"github.com/elastic/beats/libbeat/common"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
+	"github.com/borischernov/beats/libbeat/common"
+	s "github.com/borischernov/beats/libbeat/common/schema"
+	c "github.com/borischernov/beats/libbeat/common/schema/mapstriface"
 )
 
 var (

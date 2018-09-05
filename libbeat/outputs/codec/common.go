@@ -22,8 +22,8 @@ import (
 
 	"github.com/elastic/go-structform"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/dtfmt"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/dtfmt"
 )
 
 func MakeTimestampEncoder() func(*time.Time, structform.ExtVisitor) error {

@@ -31,10 +31,10 @@ import (
 	"net"
 	"testing"
 
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
+	"github.com/borischernov/beats/packetbeat/protos"
+	"github.com/borischernov/beats/packetbeat/protos/tcp"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 )

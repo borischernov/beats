@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 func Example() {

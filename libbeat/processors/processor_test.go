@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/processors"
 
-	_ "github.com/elastic/beats/libbeat/processors/actions"
-	_ "github.com/elastic/beats/libbeat/processors/add_cloud_metadata"
+	_ "github.com/borischernov/beats/libbeat/processors/actions"
+	_ "github.com/borischernov/beats/libbeat/processors/add_cloud_metadata"
 )
 
 func GetProcessors(t *testing.T, yml []map[string]interface{}) *processors.Processors {

@@ -26,11 +26,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/bus"
+	s "github.com/borischernov/beats/libbeat/common/schema"
+	c "github.com/borischernov/beats/libbeat/common/schema/mapstriface"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // Jolokia Discovery query

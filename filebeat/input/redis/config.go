@@ -20,7 +20,7 @@ package redis
 import (
 	"time"
 
-	"github.com/elastic/beats/filebeat/harvester"
+	"github.com/borischernov/beats/filebeat/harvester"
 )
 
 var defaultConfig = config{

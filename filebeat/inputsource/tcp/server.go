@@ -25,10 +25,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/filebeat/inputsource"
+	"github.com/borischernov/beats/libbeat/common/transport/tlscommon"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 // Server represent a TCP server

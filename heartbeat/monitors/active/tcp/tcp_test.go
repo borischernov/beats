@@ -29,13 +29,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/elastic/beats/heartbeat/hbtest"
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/mapval"
-	btesting "github.com/elastic/beats/libbeat/testing"
-	"github.com/elastic/beats/libbeat/testing/mapvaltest"
+	"github.com/borischernov/beats/heartbeat/hbtest"
+	"github.com/borischernov/beats/heartbeat/monitors"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/mapval"
+	btesting "github.com/borischernov/beats/libbeat/testing"
+	"github.com/borischernov/beats/libbeat/testing/mapvaltest"
 )
 
 func testTCPCheck(t *testing.T, host string, port uint16) *beat.Event {

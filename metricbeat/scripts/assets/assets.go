@@ -26,9 +26,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/elastic/beats/libbeat/asset"
-	"github.com/elastic/beats/libbeat/generator/fields"
-	"github.com/elastic/beats/licenses"
+	"github.com/borischernov/beats/libbeat/asset"
+	"github.com/borischernov/beats/libbeat/generator/fields"
+	"github.com/borischernov/beats/licenses"
 )
 
 func main() {

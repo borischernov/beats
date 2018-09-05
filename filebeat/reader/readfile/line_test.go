@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/text/transform"
 
-	"github.com/elastic/beats/filebeat/reader/readfile/encoding"
+	"github.com/borischernov/beats/filebeat/reader/readfile/encoding"
 )
 
 // Sample texts are from http://www.columbia.edu/~kermit/utf8.html

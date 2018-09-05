@@ -4,7 +4,7 @@
 
 package cmd
 
-import "github.com/elastic/beats/winlogbeat/cmd"
+import "github.com/borischernov/beats/winlogbeat/cmd"
 
 // RootCmd to handle beats cli
 var RootCmd = cmd.RootCmd

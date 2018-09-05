@@ -31,8 +31,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/packetbeat/protos/applayer"
 	"github.com/elastic/gosigar"
 )
 

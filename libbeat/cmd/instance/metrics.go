@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/metric/system/cpu"
-	"github.com/elastic/beats/libbeat/metric/system/process"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/metric/system/cpu"
+	"github.com/borischernov/beats/libbeat/metric/system/process"
+	"github.com/borischernov/beats/libbeat/monitoring"
 )
 
 var (

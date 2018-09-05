@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/kibana"
-	"github.com/elastic/beats/libbeat/version"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/kibana"
+	"github.com/borischernov/beats/libbeat/version"
 )
 
 func main() {

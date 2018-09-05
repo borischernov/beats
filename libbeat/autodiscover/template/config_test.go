@@ -20,8 +20,8 @@ package template
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/bus"
 
 	"github.com/stretchr/testify/assert"
 )

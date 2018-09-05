@@ -7,7 +7,7 @@ package main
 import (
 	"os"
 
-	"github.com/elastic/beats/x-pack/filebeat/cmd"
+	"github.com/borischernov/beats/x-pack/filebeat/cmd"
 )
 
 // The basic model of execution:

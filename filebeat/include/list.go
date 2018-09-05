@@ -26,11 +26,11 @@ modules.
 package include
 
 import (
-	_ "github.com/elastic/beats/filebeat/input/docker"
-	_ "github.com/elastic/beats/filebeat/input/log"
-	_ "github.com/elastic/beats/filebeat/input/redis"
-	_ "github.com/elastic/beats/filebeat/input/stdin"
-	_ "github.com/elastic/beats/filebeat/input/syslog"
-	_ "github.com/elastic/beats/filebeat/input/tcp"
-	_ "github.com/elastic/beats/filebeat/input/udp"
+	_ "github.com/borischernov/beats/filebeat/input/docker"
+	_ "github.com/borischernov/beats/filebeat/input/log"
+	_ "github.com/borischernov/beats/filebeat/input/redis"
+	_ "github.com/borischernov/beats/filebeat/input/stdin"
+	_ "github.com/borischernov/beats/filebeat/input/syslog"
+	_ "github.com/borischernov/beats/filebeat/input/tcp"
+	_ "github.com/borischernov/beats/filebeat/input/udp"
 )

@@ -29,9 +29,9 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/metricbeat/mb"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

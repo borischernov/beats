@@ -27,7 +27,7 @@ var Template = template.Must(template.New("normalizations").Parse(`
 package {{ .Package }}
 
 import (
-	"github.com/elastic/beats/libbeat/asset"
+	"github.com/borischernov/beats/libbeat/asset"
 )
 
 func init() {

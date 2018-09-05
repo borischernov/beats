@@ -27,19 +27,19 @@ import (
 
 	"strconv"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/monitoring/report"
-	"github.com/elastic/beats/libbeat/outputs"
-	esout "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/publisher/pipeline"
-	"github.com/elastic/beats/libbeat/publisher/queue"
-	"github.com/elastic/beats/libbeat/publisher/queue/memqueue"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/transport/tlscommon"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/monitoring/report"
+	"github.com/borischernov/beats/libbeat/outputs"
+	esout "github.com/borischernov/beats/libbeat/outputs/elasticsearch"
+	"github.com/borischernov/beats/libbeat/outputs/outil"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/libbeat/publisher/pipeline"
+	"github.com/borischernov/beats/libbeat/publisher/queue"
+	"github.com/borischernov/beats/libbeat/publisher/queue/memqueue"
 )
 
 type reporter struct {

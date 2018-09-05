@@ -18,8 +18,8 @@
 package autodiscover
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/conditions"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/conditions"
 )
 
 // Config settings for Autodiscover

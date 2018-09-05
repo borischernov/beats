@@ -24,7 +24,7 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 type GlobWatcher struct {

@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/outest"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/outputs"
+	"github.com/borischernov/beats/libbeat/outputs/outest"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 type testAsyncDriver struct {

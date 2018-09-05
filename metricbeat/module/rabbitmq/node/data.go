@@ -20,9 +20,9 @@ package node
 import (
 	"encoding/json"
 
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/metricbeat/mb"
+	s "github.com/borischernov/beats/libbeat/common/schema"
+	c "github.com/borischernov/beats/libbeat/common/schema/mapstriface"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 var (

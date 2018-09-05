@@ -22,9 +22,9 @@ package node_stats
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/tests/compose"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/logstash"
+	"github.com/borischernov/beats/libbeat/tests/compose"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/metricbeat/module/logstash"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -24,12 +24,12 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/winlogbeat/checkpoint"
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/borischernov/beats/winlogbeat/checkpoint"
+	"github.com/borischernov/beats/winlogbeat/sys"
 )
 
 // Debug selectors used in this package.

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 type logger interface {

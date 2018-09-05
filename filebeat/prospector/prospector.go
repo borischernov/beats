@@ -19,7 +19,7 @@
 // Deprecated: See the input package
 package prospector
 
-import "github.com/elastic/beats/filebeat/input"
+import "github.com/borischernov/beats/filebeat/input"
 
 // Prospectorer defines how to read new data
 // Deprecated: See input.input

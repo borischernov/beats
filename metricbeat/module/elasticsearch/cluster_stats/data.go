@@ -20,13 +20,13 @@ package cluster_stats
 import (
 	"encoding/json"
 
-	"github.com/elastic/beats/metricbeat/helper/elastic"
+	"github.com/borischernov/beats/metricbeat/helper/elastic"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 
-	s "github.com/elastic/beats/libbeat/common/schema"
-	c "github.com/elastic/beats/libbeat/common/schema/mapstriface"
-	"github.com/elastic/beats/metricbeat/mb"
+	s "github.com/borischernov/beats/libbeat/common/schema"
+	c "github.com/borischernov/beats/libbeat/common/schema/mapstriface"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 var (

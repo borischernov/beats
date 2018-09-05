@@ -20,5 +20,5 @@
 package redis
 
 import (
-	_ "github.com/elastic/beats/metricbeat/mb/testing"
+	_ "github.com/borischernov/beats/metricbeat/mb/testing"
 )

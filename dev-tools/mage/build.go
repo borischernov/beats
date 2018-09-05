@@ -48,8 +48,8 @@ func DefaultBuildArgs() BuildArgs {
 		Name: BeatName,
 		CGO:  build.Default.CgoEnabled,
 		Vars: map[string]string{
-			"github.com/elastic/beats/libbeat/version.buildTime": "{{ date }}",
-			"github.com/elastic/beats/libbeat/version.commit":    "{{ commit }}",
+			"github.com/borischernov/beats/libbeat/version.buildTime": "{{ date }}",
+			"github.com/borischernov/beats/libbeat/version.commit":    "{{ commit }}",
 		},
 	}
 

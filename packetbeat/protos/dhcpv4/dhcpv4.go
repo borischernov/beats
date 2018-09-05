@@ -23,11 +23,11 @@ import (
 
 	"github.com/insomniacslk/dhcp/dhcpv4"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/packetbeat/protos"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/packetbeat/protos"
 )
 
 var (

@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/heartbeat/look"
-	"github.com/elastic/beats/heartbeat/monitors"
+	"github.com/borischernov/beats/heartbeat/look"
+	"github.com/borischernov/beats/heartbeat/monitors"
 )
 
 func init() {

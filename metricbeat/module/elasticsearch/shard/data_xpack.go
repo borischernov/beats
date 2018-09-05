@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/module/elasticsearch"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/module/elasticsearch"
 )
 
 func eventsMappingXPack(r mb.ReporterV2, m *MetricSet, content []byte) {

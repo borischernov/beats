@@ -20,8 +20,8 @@ package appenders
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	p "github.com/elastic/beats/libbeat/plugin"
+	"github.com/borischernov/beats/libbeat/autodiscover"
+	p "github.com/borischernov/beats/libbeat/plugin"
 )
 
 type appenderPlugin struct {

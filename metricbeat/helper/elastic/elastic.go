@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 // Product supported by X-Pack Monitoring

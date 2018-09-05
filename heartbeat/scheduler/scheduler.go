@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 type Scheduler struct {

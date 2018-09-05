@@ -20,7 +20,7 @@
 package windows
 
 import (
-	"github.com/elastic/beats/libbeat/asset"
+	"github.com/borischernov/beats/libbeat/asset"
 )
 
 func init() {

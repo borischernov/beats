@@ -25,10 +25,10 @@ import (
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/autodiscover/template"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/bus"
-	"github.com/elastic/beats/libbeat/common/kubernetes"
+	"github.com/borischernov/beats/libbeat/autodiscover/template"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/bus"
+	"github.com/borischernov/beats/libbeat/common/kubernetes"
 )
 
 func TestGenerateHints(t *testing.T) {

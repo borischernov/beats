@@ -18,7 +18,7 @@
 package mb_test
 
 import (
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 func init() {

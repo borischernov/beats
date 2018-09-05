@@ -31,7 +31,7 @@ import (
 	"github.com/magefile/mage/sh"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/borischernov/beats/dev-tools/mage"
 )
 
 func init() {
@@ -224,7 +224,7 @@ var crossBuildDeps = map[string]func() error{
 
 // buildLibpcapFromSource builds libpcap from source because the library needs
 // to be compiled with -fPIC.
-// See https://github.com/elastic/beats/pull/4217.
+// See https://github.com/borischernov/beats/pull/4217.
 func buildLibpcapFromSource(params map[string]string) error {
 	tarFile, err := mage.DownloadFile(libpcapURL, "/libpcap")
 	if err != nil {
@@ -366,7 +366,7 @@ func generateWin64StaticWinpcap() error {
 
 	// Notes: We are using absolute path to make sure the files
 	// are available for x-pack build.
-	// Ref: https://github.com/elastic/beats/issues/1259
+	// Ref: https://github.com/borischernov/beats/issues/1259
 	defer mage.DockerChown(mage.MustExpand("{{elastic_beats_dir}}/{{.BeatName}}/lib"))
 	return mage.RunCmds(
 		// Requires mingw-w64-tools.

@@ -18,7 +18,7 @@
 package processors
 
 import (
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 type PluginConfig []map[string]*common.Config

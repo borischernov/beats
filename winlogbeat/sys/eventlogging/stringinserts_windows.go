@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/elastic/beats/winlogbeat/sys"
+	"github.com/borischernov/beats/winlogbeat/sys"
 )
 
 const (

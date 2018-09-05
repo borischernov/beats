@@ -21,8 +21,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/publisher/queue"
 )
 
 // QueueFactory is used to create a per test queue instance.

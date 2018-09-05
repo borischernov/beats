@@ -24,15 +24,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/processors"
 
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/scheduler"
-	"github.com/elastic/beats/heartbeat/scheduler/schedule"
-	"github.com/elastic/beats/heartbeat/watcher"
+	"github.com/borischernov/beats/heartbeat/monitors"
+	"github.com/borischernov/beats/heartbeat/scheduler"
+	"github.com/borischernov/beats/heartbeat/scheduler/schedule"
+	"github.com/borischernov/beats/heartbeat/watcher"
 )
 
 type monitorManager struct {

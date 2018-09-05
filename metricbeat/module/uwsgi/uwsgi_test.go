@@ -20,7 +20,7 @@ package uwsgi
 import (
 	"testing"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 
 	"github.com/stretchr/testify/assert"
 )

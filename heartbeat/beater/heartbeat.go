@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 
-	"github.com/elastic/beats/heartbeat/config"
-	"github.com/elastic/beats/heartbeat/monitors"
-	"github.com/elastic/beats/heartbeat/scheduler"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/heartbeat/config"
+	"github.com/borischernov/beats/heartbeat/monitors"
+	"github.com/borischernov/beats/heartbeat/scheduler"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
 )
 
 type Heartbeat struct {

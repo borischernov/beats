@@ -28,7 +28,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // Broker provides functionality for communicating with a single kafka broker

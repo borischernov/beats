@@ -20,15 +20,15 @@ package fileset
 import (
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/elastic/beats/filebeat/channel"
-	input "github.com/elastic/beats/filebeat/prospector"
-	"github.com/elastic/beats/filebeat/registrar"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/borischernov/beats/filebeat/channel"
+	input "github.com/borischernov/beats/filebeat/prospector"
+	"github.com/borischernov/beats/filebeat/registrar"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/cfgfile"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/outputs/elasticsearch"
 
 	"github.com/mitchellh/hashstructure"
 )

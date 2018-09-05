@@ -28,8 +28,8 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 type partitionBuilder func(*common.Config) (func() partitioner, error)

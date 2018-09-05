@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/filebeat/reader"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/filebeat/reader"
+	"github.com/borischernov/beats/libbeat/common"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 func getTable(fields common.MapStr, data []byte, offset uint32) (next uint32, err bool, exists bool) {

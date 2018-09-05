@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // PipelineLoaderFactory builds and returns a PipelineLoader

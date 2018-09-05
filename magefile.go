@@ -22,7 +22,7 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/elastic/beats/dev-tools/mage"
+	"github.com/borischernov/beats/dev-tools/mage"
 )
 
 var (

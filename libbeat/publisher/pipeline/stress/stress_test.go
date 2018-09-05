@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
 
 	// import queue types
-	"github.com/elastic/beats/libbeat/publisher/pipeline/stress"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/memqueue"
-	_ "github.com/elastic/beats/libbeat/publisher/queue/spool"
+	"github.com/borischernov/beats/libbeat/publisher/pipeline/stress"
+	_ "github.com/borischernov/beats/libbeat/publisher/queue/memqueue"
+	_ "github.com/borischernov/beats/libbeat/publisher/queue/spool"
 )
 
 // additional flags

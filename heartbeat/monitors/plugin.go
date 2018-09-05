@@ -20,7 +20,7 @@ package monitors
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/borischernov/beats/libbeat/plugin"
 )
 
 type monitorPlugin struct {

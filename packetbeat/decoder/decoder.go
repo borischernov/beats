@@ -20,12 +20,12 @@ package decoder
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/packetbeat/flows"
-	"github.com/elastic/beats/packetbeat/protos"
-	"github.com/elastic/beats/packetbeat/protos/icmp"
-	"github.com/elastic/beats/packetbeat/protos/tcp"
-	"github.com/elastic/beats/packetbeat/protos/udp"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/packetbeat/flows"
+	"github.com/borischernov/beats/packetbeat/protos"
+	"github.com/borischernov/beats/packetbeat/protos/icmp"
+	"github.com/borischernov/beats/packetbeat/protos/tcp"
+	"github.com/borischernov/beats/packetbeat/protos/udp"
 
 	"github.com/tsg/gopacket"
 	"github.com/tsg/gopacket/layers"

@@ -18,12 +18,12 @@
 package spool
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/feature"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/feature"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/paths"
+	"github.com/borischernov/beats/libbeat/publisher/queue"
 	"github.com/elastic/go-txfile"
 )
 

@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/elastic/beats/filebeat/reader"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/jsontransform"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/filebeat/reader"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/jsontransform"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 // JSONReader parses JSON inputs

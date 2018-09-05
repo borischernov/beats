@@ -20,10 +20,10 @@
 package memory
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	mem "github.com/elastic/beats/libbeat/metric/system/memory"
-	"github.com/elastic/beats/metricbeat/mb"
-	"github.com/elastic/beats/metricbeat/mb/parse"
+	"github.com/borischernov/beats/libbeat/common"
+	mem "github.com/borischernov/beats/libbeat/metric/system/memory"
+	"github.com/borischernov/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/mb/parse"
 
 	"github.com/pkg/errors"
 )

@@ -18,8 +18,8 @@
 package rabbitmq
 
 import (
-	"github.com/elastic/beats/metricbeat/helper"
-	"github.com/elastic/beats/metricbeat/mb"
+	"github.com/borischernov/beats/metricbeat/helper"
+	"github.com/borischernov/beats/metricbeat/mb"
 )
 
 // MetricSet can be used to build other metric sets that query RabbitMQ

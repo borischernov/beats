@@ -18,9 +18,9 @@
 package pipeline
 
 import (
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/publisher/queue"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs"
+	"github.com/borischernov/beats/libbeat/publisher/queue"
 )
 
 // outputController manages the pipelines output capabilities, like:

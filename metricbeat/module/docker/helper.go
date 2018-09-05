@@ -22,8 +22,8 @@ import (
 
 	"github.com/docker/docker/api/types"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/safemapstr"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/safemapstr"
 )
 
 type Container struct {

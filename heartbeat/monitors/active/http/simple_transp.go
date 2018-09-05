@@ -28,7 +28,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/borischernov/beats/libbeat/outputs/transport"
 )
 
 const (

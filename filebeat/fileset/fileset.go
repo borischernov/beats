@@ -33,9 +33,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	mlimporter "github.com/elastic/beats/libbeat/ml-importer"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/logp"
+	mlimporter "github.com/borischernov/beats/libbeat/ml-importer"
 )
 
 // Fileset struct is the representation of a fileset.

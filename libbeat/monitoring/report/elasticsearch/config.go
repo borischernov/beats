@@ -20,7 +20,7 @@ package elasticsearch
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/transport/tlscommon"
+	"github.com/borischernov/beats/libbeat/common/transport/tlscommon"
 )
 
 // config is subset of libbeat/outputs/elasticsearch config tailored

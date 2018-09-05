@@ -26,12 +26,12 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/codec"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/common/fmtstr"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/outputs"
+	"github.com/borischernov/beats/libbeat/outputs/codec"
+	"github.com/borischernov/beats/libbeat/outputs/outil"
+	"github.com/borischernov/beats/libbeat/publisher"
 )
 
 type client struct {

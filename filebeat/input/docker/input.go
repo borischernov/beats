@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/elastic/beats/filebeat/channel"
-	"github.com/elastic/beats/filebeat/input"
-	"github.com/elastic/beats/filebeat/input/log"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/filebeat/channel"
+	"github.com/borischernov/beats/filebeat/input"
+	"github.com/borischernov/beats/filebeat/input/log"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/logp"
 
 	"github.com/pkg/errors"
 )

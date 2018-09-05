@@ -28,8 +28,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/mapval"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/mapval"
 )
 
 // Test takes the output from a Validator invocation and runs test assertions on the result.

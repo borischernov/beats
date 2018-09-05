@@ -22,8 +22,8 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/publisher"
 )
 
 type backoffClient struct {

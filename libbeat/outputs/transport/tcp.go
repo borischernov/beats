@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/testing"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/testing"
 )
 
 func NetDialer(timeout time.Duration) Dialer {

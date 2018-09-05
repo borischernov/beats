@@ -24,7 +24,7 @@ import (
 
 	"time"
 
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
 )
 
 func TestData(t *testing.T) {

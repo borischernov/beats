@@ -28,7 +28,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/elastic/beats/packetbeat/protos/applayer"
+	"github.com/borischernov/beats/packetbeat/protos/applayer"
 )
 
 type extractor interface {

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 // Event is the common event format shared by all beats.

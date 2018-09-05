@@ -42,7 +42,7 @@ const (
 	beatsFPMImage        = "docker.elastic.co/beats-dev/fpm"
 	beatsCrossBuildImage = "docker.elastic.co/beats-dev/golang-crossbuild"
 
-	elasticBeatsImportPath = "github.com/elastic/beats"
+	elasticBeatsImportPath = "github.com/borischernov/beats"
 )
 
 // Common settings with defaults derived from files, CWD, and environment.
@@ -223,7 +223,7 @@ func ElasticBeatsDir() (string, error) {
 }
 
 // findElasticBeatsDir attempts to find the root of the Elastic Beats directory.
-// It checks to see if the current project is elastic/beats, and then if not
+// It checks to see if the current project is borischernov/beats, and then if not
 // checks the vendor directory.
 //
 // If your project places the Beats files in a different location (specifically
@@ -511,7 +511,7 @@ type ProjectRepoInfo struct {
 }
 
 // IsElasticBeats returns true if the current project is
-// github.com/elastic/beats.
+// github.com/borischernov/beats.
 func (r *ProjectRepoInfo) IsElasticBeats() bool {
 	return r.RootImportPath == elasticBeatsImportPath
 }

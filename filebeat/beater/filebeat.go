@@ -25,25 +25,25 @@ import (
 	"github.com/joeshaw/multierror"
 	"github.com/pkg/errors"
 
-	"github.com/elastic/beats/libbeat/autodiscover"
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/cfgwarn"
-	"github.com/elastic/beats/libbeat/kibana"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/borischernov/beats/libbeat/autodiscover"
+	"github.com/borischernov/beats/libbeat/beat"
+	"github.com/borischernov/beats/libbeat/cfgfile"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/common/cfgwarn"
+	"github.com/borischernov/beats/libbeat/kibana"
+	"github.com/borischernov/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/monitoring"
+	"github.com/borischernov/beats/libbeat/outputs/elasticsearch"
 
-	fbautodiscover "github.com/elastic/beats/filebeat/autodiscover"
-	"github.com/elastic/beats/filebeat/channel"
-	cfg "github.com/elastic/beats/filebeat/config"
-	"github.com/elastic/beats/filebeat/crawler"
-	"github.com/elastic/beats/filebeat/fileset"
-	"github.com/elastic/beats/filebeat/registrar"
+	fbautodiscover "github.com/borischernov/beats/filebeat/autodiscover"
+	"github.com/borischernov/beats/filebeat/channel"
+	cfg "github.com/borischernov/beats/filebeat/config"
+	"github.com/borischernov/beats/filebeat/crawler"
+	"github.com/borischernov/beats/filebeat/fileset"
+	"github.com/borischernov/beats/filebeat/registrar"
 
 	// Add filebeat level processors
-	_ "github.com/elastic/beats/filebeat/processor/add_kubernetes_metadata"
+	_ "github.com/borischernov/beats/filebeat/processor/add_kubernetes_metadata"
 )
 
 const pipelinesWarning = "Filebeat is unable to load the Ingest Node pipelines for the configured" +

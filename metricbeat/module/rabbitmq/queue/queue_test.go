@@ -20,9 +20,9 @@ package queue
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	mbtest "github.com/elastic/beats/metricbeat/mb/testing"
-	"github.com/elastic/beats/metricbeat/module/rabbitmq/mtest"
+	"github.com/borischernov/beats/libbeat/common"
+	mbtest "github.com/borischernov/beats/metricbeat/mb/testing"
+	"github.com/borischernov/beats/metricbeat/module/rabbitmq/mtest"
 
 	"github.com/stretchr/testify/assert"
 )

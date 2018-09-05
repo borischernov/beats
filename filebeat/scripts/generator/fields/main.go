@@ -376,7 +376,7 @@ func writeFieldsYml(beatsPath, module, fileset string, f []byte) error {
 func main() {
 	module := flag.String("module", "", "Name of the module")
 	fileset := flag.String("fileset", "", "Name of the fileset")
-	beatsPath := flag.String("beats_path", ".", "Path to elastic/beats")
+	beatsPath := flag.String("beats_path", ".", "Path to borischernov/beats")
 	noDoc := flag.Bool("nodoc", false, "Generate documentation for fields")
 	flag.Parse()
 

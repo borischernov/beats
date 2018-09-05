@@ -23,7 +23,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/elastic/beats/filebeat/scripts/generator"
+	"github.com/borischernov/beats/filebeat/scripts/generator"
 )
 
 func generateModule(module, modulesPath, beatsPath string) error {
@@ -51,7 +51,7 @@ func generateModule(module, modulesPath, beatsPath string) error {
 func main() {
 	module := flag.String("module", "", "Name of the module")
 	modulePath := flag.String("path", ".", "Path to the generated fileset")
-	beatsPath := flag.String("beats_path", ".", "Path to elastic/beats")
+	beatsPath := flag.String("beats_path", ".", "Path to borischernov/beats")
 	flag.Parse()
 
 	if *module == "" {

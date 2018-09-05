@@ -29,8 +29,8 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/inputsource"
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/borischernov/beats/filebeat/inputsource"
+	"github.com/borischernov/beats/libbeat/common"
 )
 
 var defaultConfig = Config{

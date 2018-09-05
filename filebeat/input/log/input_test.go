@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/filebeat/input/file"
-	"github.com/elastic/beats/libbeat/common/match"
+	"github.com/borischernov/beats/filebeat/input/file"
+	"github.com/borischernov/beats/libbeat/common/match"
 )
 
 func TestInputFileExclude(t *testing.T) {

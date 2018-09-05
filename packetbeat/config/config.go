@@ -20,9 +20,9 @@ package config
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/packetbeat/procs"
+	"github.com/borischernov/beats/libbeat/common"
+	"github.com/borischernov/beats/libbeat/processors"
+	"github.com/borischernov/beats/packetbeat/procs"
 )
 
 type Config struct {

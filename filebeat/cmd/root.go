@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/elastic/beats/filebeat/beater"
+	"github.com/borischernov/beats/filebeat/beater"
 
-	cmd "github.com/elastic/beats/libbeat/cmd"
+	cmd "github.com/borischernov/beats/libbeat/cmd"
 )
 
 // Name of this beat

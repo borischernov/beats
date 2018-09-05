@@ -28,7 +28,7 @@ import (
 	"github.com/ericchiang/k8s/apis/core/v1"
 	"github.com/ghodss/yaml"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/borischernov/beats/libbeat/logp"
 )
 
 const defaultNode = "localhost"
